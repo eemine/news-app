@@ -1,0 +1,11 @@
+.container {
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container.spaceBetween {
+  justify-content: space-between;
+}

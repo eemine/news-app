@@ -1,0 +1,36 @@
+.contact-detail-wrap {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  margin: 10px;
+  width: 535px;
+}
+
+.contact-detail {
+  display: flex;
+  flex-flow: row;
+  width: 50%;
+}
+
+.detail-title {
+  color: #515151; 
+  font-family: goboldregular;
+  font-style: inherit;
+  font-size: 19px;
+  margin: 10px;
+  text-align: left;
+}
+
+.detail-paragraph {
+  font-family: goboldregular;
+  font-style: inherit;
+  font-size: 14px;
+  text-align: left;
+}
+
+.detail-icon {
+  color: #515151;
+  font-size: 30px;
+  margin: 5px;
+  size: 25px;
+}
