@@ -1,10 +1,12 @@
 import React from "react";
-import { Article } from "../components";
+import { Article, Container, NewsHeadlines } from "../components";
 
 const ArticleView = () => (
-  <div>
-    <Article imgUrl="https://placeimg.com/1000/300/nature" />
-  </div>
+  <Container>
+    <Article>
+      <NewsHeadlines />
+    </Article>
+  </Container>
 );
 
 export default ArticleView;

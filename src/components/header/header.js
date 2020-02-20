@@ -1,12 +1,16 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./header.css";
 import Container from "../container";
-import NavBar from "../navBar";
+import fox from "./fox.png";
 
 const Header = () => (
   <header className="header">
     <Container>
-      <NavBar/>
+      <img className="header_logo" src={fox}></img>
+      <Link to="/" className="header_link">
+        Fox news
+      </Link>
     </Container>
   </header>
 );

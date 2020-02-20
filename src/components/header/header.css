@@ -1,5 +1,22 @@
 .header {
-  color: white;
-  background-color: #3d4750;
+  background-color: #192840;
+  color: #ffffff;
   display: flex;
+  height: 74px;
+}
+
+.header .container {
+  align-items: center;
+}
+
+.header_logo {
+  width: 47px;
+  height: 47px;
+  margin-right: 20px;
+}
+
+.header_link {
+  text-decoration: none;
+  font-size: 18px;
+  color: #ffffff;
 }

@@ -1,10 +1,15 @@
 import React from "react";
-import { Articles, Container } from "../components";
+import {
+  Container,
+  AllHeadlines,
+  TopNews
+} from "../components";
 
 function Home() {
   return (
     <Container spaceBetween>
-      <Articles />
+      <TopNews />
+      <AllHeadlines />
     </Container>
   );
 }

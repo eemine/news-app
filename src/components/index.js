@@ -10,6 +10,9 @@ import PageParagraph from "./pageParagraph";
 import ContactForm from "./contactForm";
 import ContactDetail from "./contactDetail";
 import Articles from "./articles";
+import NewsHeadlines from "./newsHeadlines";
+import AllHeadlines from "./allHeadlines";
+import TopNews from "./topNews";
 
 export {
   Header,
@@ -23,5 +26,8 @@ export {
   PageParagraph,
   ContactForm,
   ContactDetail,
-  Articles
+  Articles,
+  NewsHeadlines,
+  AllHeadlines,
+  TopNews
 };

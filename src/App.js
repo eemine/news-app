@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import { Header } from "./components";
+import { Header, NavBar } from "./components";
 import { Content } from "./components";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { Footer } from "./components";
@@ -14,12 +14,13 @@ function App() {
     <Router>
       <React.Fragment>
         <Header />
+        <NavBar />
         <Content>
           <Switch>
             <Route exact path="/">
               <Home />
             </Route>
-            <Route path="/articles">
+            <Route path="/articles/:id">
               <ArticleView />
             </Route>
             <Route path="/about">

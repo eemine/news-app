@@ -1,9 +1,13 @@
 .newsBox {
-  background-color: #ffffff;
-  font-family: Arial, Helvetica, sans-serif;
   list-style: none;
-  width: 29%;
-  padding: 15px;
+  padding: 0;
+  width: calc((100% - 90px) / 4);          
+}
+
+.newsBox_link {
+  color: #000000;
+  display: contents;
+  text-decoration: none;
 }
 
 .newsBox_image {
@@ -14,19 +18,18 @@
   width: 100%;
 }
 
-.newsBox_title {
-  font-size: 20px;
+.newsBox_title {                      
   font-weight: bold;
-  margin-bottom: 10px;
+  margin-top: 13px;
+  margin-bottom: 15px;
 }
 
 .newsBox_description {
-  font-size: 15px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .newsBox_date {
-  border-top: 1px solid #d9d9d9;
-  font-size: 15px;
-  padding-top: 10px;
+  font-size: 12px;
+  color: #757575;
+  text-align: end;
 }

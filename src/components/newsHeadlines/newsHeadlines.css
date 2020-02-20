@@ -1,0 +1,22 @@
+.newsHeadlines {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+}
+
+.newsHeadlines_container {
+  padding-bottom: 10px;
+}
+
+.newsHeadlines_container:last-of-type {
+  padding-bottom: 0;
+}
+
+.newsHeadlines_title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.newsHeadlines_description {
+  font-size: 14px;
+}

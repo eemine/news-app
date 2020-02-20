@@ -1,0 +1,20 @@
+.allHeadlines {
+  width: 300px;
+}
+
+.allHeadlines_title {
+  border-bottom: 2px solid #f26f49;
+  color: #001c63;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 20px 0 15px;
+  padding-bottom: 10px;
+}
+
+.allHeadlines_item {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 15px;
+  text-decoration: none;
+  color: #000000;
+}

@@ -1,0 +1,18 @@
+.topNews {
+  width: calc(100% - 340px);
+}
+
+.topNews_title {
+  border-bottom: 2px solid #f26f49;
+  color: #001c63;
+  font-weight: bold;
+  font-size: 18px;
+  margin: 20px 0 25px;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.topNews_container {
+  display: flex;
+  justify-content: space-between;
+}
