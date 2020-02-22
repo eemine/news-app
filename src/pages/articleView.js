@@ -1,11 +1,11 @@
 import React from "react";
-import { Article, Container, NewsHeadlines } from "../components";
+import { Article, Container } from "../components";
+import AllHeadlines from "../components/allHeadlines";
 
 const ArticleView = () => (
   <Container>
-    <Article>
-      <NewsHeadlines />
-    </Article>
+    <Article/>
+    <AllHeadlines/>
   </Container>
 );
 

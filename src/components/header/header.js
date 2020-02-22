@@ -7,7 +7,7 @@ import fox from "./fox.png";
 const Header = () => (
   <header className="header">
     <Container>
-      <img className="header_logo" src={fox}></img>
+      <img className="header_logo" src={fox} alt='logo'></img>
       <Link to="/" className="header_link">
         Fox news
       </Link>

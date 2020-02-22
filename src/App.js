@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import { Header, NavBar } from "./components";
+import { Header, HeaderNavBar } from "./components";
 import { Content } from "./components";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { Footer } from "./components";
@@ -14,7 +14,7 @@ function App() {
     <Router>
       <React.Fragment>
         <Header />
-        <NavBar />
+        <HeaderNavBar />
         <Content>
           <Switch>
             <Route exact path="/">

@@ -4,6 +4,7 @@ import Footer from "./footer";
 import Container from "./container";
 import NewsBox from "./newsBox";
 import NavBar from "./navBar";
+import HeaderNavBar from './navBar/navBar';
 import Article from "./article";
 import PageTitle from "./pageTitle";
 import PageParagraph from "./pageParagraph";
@@ -21,6 +22,7 @@ export {
   Container,
   NewsBox,
   NavBar,
+  HeaderNavBar,
   Article,
   PageTitle,
   PageParagraph,

@@ -1,6 +1,7 @@
 import React from "react";
 import * as newsAPI from "../../API/news";
 import "./article.css";
+import moment from "moment";
 
 class Article extends React.Component {
   componentDidMount() {
@@ -17,9 +18,11 @@ class Article extends React.Component {
       return (
         <div className="article">
           <div className="article_title">{header}</div>
-          <div className="article_date">{date}</div>
+          <div className="article_date">
+            {moment(date).format('DD MM YYYY')}
+          </div>
           <div className="article_img">
-            <img src={image} />
+            <img src={image} alt={header}/>
           </div>
           <div className="article_content_wrapper">
             <div className="article_description">{content}</div>

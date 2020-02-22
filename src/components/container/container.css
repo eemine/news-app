@@ -9,3 +9,9 @@
 .container.spaceBetween {
   justify-content: space-between;
 }
+
+@media only screen and (max-width: 1024px) {
+  .container {
+    width: calc(100% - 50px);
+  }
+}

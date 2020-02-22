@@ -1,16 +1,36 @@
-.navbar {
+.navBar {
   display: flex;
   background-color: #f28649;
   height: 31px;
 }
 
 .active {
-  color: #ffffff;
   font-weight: bold;
 }
 
 .navItem {
-  color: #ffffff;
   text-decoration: none;
   padding-right: 20px;
+}
+
+.navBar .navItem {
+  color: #fff;
+}
+
+.footer .navItem {
+  color: #757575;
+}
+
+.navItems {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 700px) {
+  .navItems .navItem {
+    line-height: 20px;
+  }
+  .navBar {
+    height: auto;
+  }
 }
